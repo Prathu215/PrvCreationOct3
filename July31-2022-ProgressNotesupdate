@@ -1,0 +1,176 @@
+1)watches all the movies and write reviews(log that movies in excel)
+2)Tries all the food restaurants  and locate its location
+3)Movie distribution as 2nd work and 1st work as software engineer
+4)images-photography
+
+
+
+Api-
+For movies-Tab- 1st API
+1)Title of the movie
+2)Image of the movie
+3)Review of the movie(write some lines ,
+4)Rating
+5)make it public or only to me(private)
+6)Embed the YouTube link(tailer and any)
+7)Movie type-web series, shortfilms or movies(filter and calendars)
+8)Add date time and year of the movie
+9)push comments from anyone(public or private)
+
+2nd API-Private and public
+Restaurant
+1)Name of the restaurant
+2)image of the restaurant
+3)Review of the restaurant
+4)Rating of the restaurant
+5)Make it public or private
+6)Location-lattitude and longitude of restaurant
+7)which day went date and time year
+8)push comments from anyone(public or private)
+
+4rth API -image photography- YouTube channel-vlogs, insta page where I post my work-paid event
+1)Name of the event or video
+2)image of the event or video
+3)Embedded link of event or video(my work)
+4)Make it public or private
+5)Date and time  and year
+6)push comments from anyone(public or private)
+
+About me API-
+1)First name & Lastname
+2)Profile Photo and Background image
+2)Pet name and Date of birth(we can hide year)
+3)Email, 
+4)Mobile phone number, work phone number
+5)Address
+6)Current role-jab designation
+7)Company name
+8)Hobbies and interests
+9)Personal sites- insta, Facebook, other insta pages
+10)Bio- 20lines
+11)private and public feature for all the above fields
+
+
+API-Movie distribution 
+1)Name of the event or video
+2)image of the event or video
+3)Embedded link of event or video(my work)
+4)Make it public or private
+5)Date and time  and year
+6)push comments from anyone(public or private)
+7)List of release locations(Image)
+
+
+API-Contact us
+1)First name and last name
+2)phone number
+3)Email
+4)Address not mandatory
+5)subject- select type photography/Movie distribution/other work
+6)Message container
+
+API-Post comments on site
+1)Leave a comment(anonymously or with user name)(with name or anonymous options(limit of count letters)
+2)private and public for both admin and follow
+3)Phone number 
+4)Email
+5)other-social media sites 
+
+
+Create accounts- PRV
+1)Mongo DB
+2)Clouidnary(free versions)
+3)Heroku
+4)Strap-installing angular jet like that
+5)2 git hub repositories and 1 for Angular and 1 for strapi(backend)-
+6)Create new Angular Project-  ng new prv-ui(for angular name)
+7)Login Page-
+8)Themeforest
+9)pushing  adds analytics implementation -no
+10)Banner -1400 by 700(6 images)
+
+
+Urls for reference
+1. https://profiler.jollyany.co/index.php/blog
+2. https://bootstrapmade.com/demo/templates/iPortfolio/
+3. https://mdbootstrap.com/docs/standard/extended/gallery/
+4. https://preview.themeforest.net/item/notech-it-solutions-services-joomla-4-template/full_screen_preview/37116825?_ga=2.245122885.1140941846.1658003114-1068269462.1655832080&_gac=1.120202874.1657045422.CjwKCAjwwo-WBhAMEiwAV4dybcrWsoCz-SQ-n7JufxplP3A8eYvGTyfJTW7Hgs_WAS4U_xM8EGoN7RoCVYIQAvD_BwE
+5. https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/download/
+6. https://bootstrapmade.com/
+7. https://itnext.io/how-to-deploy-angular-application-to-heroku-1d56e09c5147
+8. How to deploy in heroku- I followed the below 2 tutorials
+9. https://betterprogramming.pub/how-to-deploy-your-angular-9-app-to-heroku-in-minutes-51d171c2f0d
+10. https://itnext.io/how-to-deploy-angular-application-to-heroku-1d56e09c5147
+11. 
+
+https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css
+
+July 20 wed
+1)https://getbootstrap.com/docs/5.2/forms/validation/
+Invalid-feedback
+Restaurants,events email validations, profile page,
+1https://getbootstrap.com/docs/5.2/forms/validation/
+https://github.com/satty1987/googleMap/blob/master/src/app/components/business-information/business-information.component.ts
+https://www.digitalocean.com/community/tutorials/angular-reactive-forms-introduction
+https://www.nicepng.com/png/full/273-2732534_audi-r8-audi-banner-ad.png
+https://www.nicepng.com/ourpic/u2w7u2a9q8a9o0i1_audi-r8-audi-banner-ad/
+Example sites 
+https://highseastudio.com/demo/asana-html/events.html
+https://highseastudio.com/demo/asana-html/events.html
+https://bootstrapmade.com/demo/templates/iPortfolio/
+
+July21-Thursday
+https://strapi.io/
+
+npx create-strapi-app@latest prv-backend
+
+Keep the below code in database.js 
+module.exports = ({ env }) => ({
+  connection: {
+    client: 'postgres',
+    connection: {
+      host: env('DATABASE_HOST', '35.213.161.9'),
+      port: env.int('DATABASE_PORT', 5432),
+      database: env('DATABASE_NAME', 'dbkfxtqowwvvb6'),
+      user: env('DATABASE_USERNAME', 'ul0nxz45rupgi'),
+      password: env('DATABASE_PASSWORD', 'satnam348'),
+      ssl: env.bool('DATABASE_SSL', false),
+    },
+  },
+});
+
+
+To run straps- nom run develop
+
+For strap relation data-
+http://localhost:1337/api/profile?populate=*
+
+But for direct field
+http://localhost:1337/api/profile
+
+July 30Saturday2022
+
+Copy curl, error, reverse proxy,
+R & D of -Interceptors
+
+
+https://cloudinary.com/
+
+cloudinary.config({ 
+  cloud_name: 'dudc7dnzv', 
+  api_key: '379968388158146', 
+  api_secret: 'DV4MnMKZEDj_Tw1eROc0NPxRsxc' 
+});
+
+
+For integrating cloudinary with strap
+https://strapi.io/blog/add-cloudinary-support-to-your-strapi-application
+Npm install @strapi/provider-upload-cloudinary
+
+If you want to integrate s3 https://dev.to/kevinadhiguna/how-to-setup-amazon-s3-upload-provider-in-your-strapi-app-1opc
+
+
+
+
+
+
